@@ -31,4 +31,9 @@ increased_percentage = increased_percentage_raw*100
 
 %Calculating the selling price 
 minus_percentage = newPrice*.05;
-sell_price = newPrice - minus_percentage
+sell_price = newPrice - minus_percentage;
+stringsell = num2str(sell_price);
+s1 = 'The recommended sale price per tile is: ';
+s2 = stringsell;
+s = strcat(s1,s2);
+disp(s)
